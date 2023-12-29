@@ -1,0 +1,31 @@
+
+header {
+	background-color: #B8B8B8; /*light gray*/
+}
+
+
+h1{
+	color: #FFFFFF; /* white */
+	text-transform: uppercase;
+	text-align: center;
+}
+
+a {
+	background-color: #CFD1D0;
+	color: #000000;  /* black */
+}
+
+
+h2 {
+	color: #000080; /*navy*/
+	text-transform: uppercase;
+}
+
+main{
+	background-color: #808080 /*gray*/
+
+}
+
+img {
+	display: none
+}

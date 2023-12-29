@@ -1,0 +1,138 @@
+
+body{
+	padding: 5px;
+	margin: 5px;
+}
+
+header {
+	background-color: #B8B8B8; /*light gray*/
+	background-image: url('../html/images/flywheel.jpeg');
+	height: 140px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+h1{
+	color: #FFFFFF; /* white */
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main a.link {
+	color: #0000FF;  /* blue */
+}
+
+a.visited {
+	color: #663046;  /* grape - purple */
+}
+
+nav a{
+	color: #000000; /*black*/;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 14px 56px;
+	margin: 10px;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.25); /*slightly transparent but white tint*/
+}
+
+nav a.active {
+	background-color: #FFFFFF;  /* white */
+}
+
+aside.left {
+	background-color: #808000; /*olive green*/
+	padding: 20px;
+	margin-top: -20px;
+	display: inline-block;
+	float: left;
+	height: 500px;
+	width: 150px;
+	align-content: center;
+}
+
+aside.left img{
+	width: 150px;
+	height: 100px;
+	border: solid 1.5px;
+	border-color: #000000; /*black*/
+	margin-top: 10px;
+	align-content: center;
+}
+
+section.right {
+	margin-left: 195px; /*helps ensure this section doesn't overlap with left aside*/
+}
+
+h2 {
+	color: #000000; /*black*/
+}
+
+table {
+	font-family: Arial; 
+	font-size: x-small;
+	line-height: 200%;   /* extra space between table rows*/
+	text-align: center; /*align text to center */
+	margin-right: auto; /*automatically centers the table */
+	margin-left: auto;  /*automatically centers the table */
+	width: 80%;
+	border-collapse: collapse;
+	opacity: 0.8;
+}
+
+table tr {
+	opacity: 0.8;
+}
+
+table tr:first-child { /*keep header row fully colored*/
+	opacity: 1;
+}
+
+table tr:hover {
+	opacity: 1;
+}
+
+table td {
+	border: 1.5px solid #FFFFFF;	/*white borders internally*/
+	border-radius: 2px;  /*very slight rounding of edges*/
+	background-color: #E0FFE0; /*light green*/
+	color: #000000;
+	font-weight: bold;
+	padding: 5px
+}
+
+th{
+	background-color: #667C26; /*olive green background*/
+	color: #FFFFFF; /*white text*/
+	padding: 5px;
+	border: 1.5px solid #FFFFFF;
+	border-bottom: 2px solid #9acd32; /*lighter oliver border on the bottom*/
+	background-color: -webkit-linear-gradient (#667C26, 50%, #FFFFFF);
+	background-color: -moz-linear-gradient (#667C26, 50%, #FFFFFF);
+	background-color: -o-linear-gradient (#667C26, 50%, #FFFFFF);
+	background-color: linear-gradient (#667C26, 50%, #FFFFFF);
+	font-variant-caps: small-caps;
+	font-size: 14px; 
+}
+
+/*curve top edges*/
+th:first-child{
+	border-radius: 5px 0 0 0;
+}
+
+th:last-child{
+	border-radius: 0 5px 0 0;
+}
+
+
+td:first-child{
+	text-align: left; /*first column should be aligned left*/
+}
+
+th:first-child{
+	text-align: left; /*first column should be aligned left*/
+	padding-left: 5px;
+}
+
